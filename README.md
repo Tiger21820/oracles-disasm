@@ -3,7 +3,7 @@
 This is a complete, documented disassembly of Oracle of Ages and Seasons for the Gameboy
 Color. When combined with [LynnaLab](https://github.com/stewmath/lynnalab), it is a level
 editing suite.
-g
+
 This repository builds US version ROMS. JP and EU versions are not supported.
 
 [See the wiki](https://wiki.zeldahacking.net/oracle/Setting_up_oracles-disasm)
