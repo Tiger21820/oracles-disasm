@@ -4,6 +4,7 @@ BUILD_DIR/audio.o
 
 [ramsections]
 bank 0 slot $c000 orga $c000 Wram0_c000
+bank 0 slot $c000 orga $c0a0 Wram0_c0a0
 bank 0 slot $c000 orga $c300 Wram0_c300
 bank 0 slot $c000 orga $c4c0 Wram0_c4c0
 bank 0 slot $c000 orga $c5b0 Wram0_c5b0

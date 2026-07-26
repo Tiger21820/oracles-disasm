@@ -150,10 +150,7 @@ wChannelVolumes: ; $c07d
 .ENDS
 
 
-; TODO: Make this a ramsection. Currently it creates annoying warnings when made a ramsection due to
-; some strange arithmetic done between slots; the warning needs to be muted in wla-dx.
-;.RAMSECTION Wram0_c0a0
-.ENUM $c0a0
+.RAMSECTION Wram0_c0a0
 
 wMusicQueue: ; $c0a0
 	dsb $10
@@ -177,7 +174,7 @@ wThreadStateBuffer: ; $c2e0
 ; $20 byte buffer (with a few 2-byte gaps)
 	dsb $20
 
-.ENDE
+.ENDS
 
 
 .define NUM_THREADS	4
